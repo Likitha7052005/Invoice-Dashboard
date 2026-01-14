@@ -1,32 +1,75 @@
-# React + Vite
+# 🚀 Invoice Dashboard
 
-# Invoice Dashboard
+A modern, responsive **Invoice Management Dashboard** designed to manage invoices efficiently with a clean UI, authentication, filtering, and PDF export functionality.
 
-A modern and responsive Invoice Management Dashboard built using React and Vite.
+Built as a **frontend-focused project** to demonstrate real-world UI logic, state management, and user experience.
 
-## Features
-- User authentication using Clerk (Sign In / Sign Up)
-- View invoice summary (Outstanding, Overdue, Paid)
+---
+
+## 🌐 Live Demo
+
+🔗 **Live Application**  
+https://invoice-dashboard.vercel.app  
+
+🔗 **GitHub Repository**  
+https://github.com/Likitha7052005/Invoice-Dashboard  
+
+---
+
+## ✨ Key Features
+
+### 🔐 Authentication
+- Secure **Sign In / Sign Up** using **Clerk**
+- Protected dashboard access
+- User session handling
+
+### 📊 Invoice Summary
+- Outstanding amount
+- Overdue invoices
+- Paid invoices (monthly view)
+- Average delay calculation
+
+### 🧾 Invoice Management
 - Add new invoices
-- Filter and search invoices
-- Invoice status handling (Paid / Pending / Overdue)
-- Download individual invoices as PDF
-- Data persistence using browser localStorage
-- Responsive UI using Tailwind CSS
-- Deployed online using Vercel
+- Automatic status detection:
+  - **Paid**
+  - **Pending**
+  - **Overdue**
+- Dynamic due date calculations
 
-## Tech Stack
-- React (Vite)
-- Tailwind CSS
-- Clerk Authentication
-- html2pdf.js (Invoice PDF download)
-- Vercel (Deployment)
+### 🔍 Search & Filter
+- Filter invoices by status
+- Search by invoice ID or customer name
+- Pagination for better usability
 
-## Live Project
-https://invoice-dashboard.vercel.app
+### 📥 Invoice PDF Download
+- Download individual invoices as **PDF**
+- Clean invoice layout suitable for real-world usage
 
-## GitHub Repository
-https://github.com/Likitha7052005/Invoice-Dashboard
+### 💾 Data Persistence
+- Invoice data stored in **browser localStorage**
+- Data remains available on page refresh for the same user session
+
+### 🎨 UI & UX
+- Dark-mode inspired modern UI
+- Fully responsive design
+- Styled using **Tailwind CSS**
+
+---
+
+## 🛠 Tech Stack
+
+| Technology | Purpose |
+|----------|--------|
+| React (Vite) | Frontend framework |
+| Tailwind CSS | Styling |
+| Clerk | Authentication |
+| html2pdf.js | Invoice PDF generation |
+| localStorage | Data persistence |
+| Vercel | Deployment |
+
+---
+
 
 ## Notes
 - This is a frontend-only project.
